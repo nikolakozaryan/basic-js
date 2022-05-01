@@ -35,7 +35,3 @@ function renameFiles( names ) {
 module.exports = {
   renameFiles
 };
-
-const example = ["file", "file", "image", "file(1)", "file"];
-
-console.log(renameFiles(example))
